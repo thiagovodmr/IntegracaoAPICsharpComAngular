@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tvnic\\Documents\\projetos_programação\\IntegracaoAPIAngular\\APIWEB\\src\\APIWebApplication\\APIWebApplication.csproj": {}
+    "C:\\Users\\tvnic\\Documents\\GITHUB\\.NET\\IntegracaoAPICsharpComAngular\\APIWEB\\src\\APIWebApplication\\APIWebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tvnic\\Documents\\projetos_programação\\IntegracaoAPIAngular\\APIWEB\\src\\APIWebApplication\\APIWebApplication.csproj": {
+    "C:\\Users\\tvnic\\Documents\\GITHUB\\.NET\\IntegracaoAPICsharpComAngular\\APIWEB\\src\\APIWebApplication\\APIWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tvnic\\Documents\\projetos_programação\\IntegracaoAPIAngular\\APIWEB\\src\\APIWebApplication\\APIWebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\tvnic\\Documents\\GITHUB\\.NET\\IntegracaoAPICsharpComAngular\\APIWEB\\src\\APIWebApplication\\APIWebApplication.csproj",
         "projectName": "APIWebApplication",
-        "projectPath": "C:\\Users\\tvnic\\Documents\\projetos_programação\\IntegracaoAPIAngular\\APIWEB\\src\\APIWebApplication\\APIWebApplication.csproj",
+        "projectPath": "C:\\Users\\tvnic\\Documents\\GITHUB\\.NET\\IntegracaoAPICsharpComAngular\\APIWEB\\src\\APIWebApplication\\APIWebApplication.csproj",
         "packagesPath": "C:\\Users\\tvnic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tvnic\\Documents\\projetos_programação\\IntegracaoAPIAngular\\APIWEB\\src\\APIWebApplication\\obj\\",
+        "outputPath": "C:\\Users\\tvnic\\Documents\\GITHUB\\.NET\\IntegracaoAPICsharpComAngular\\APIWEB\\src\\APIWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tvnic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.5, )"
@@ -73,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
         }
       }
     }

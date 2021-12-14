@@ -13,6 +13,7 @@ namespace APIWebApplication.Data.EntityConfig
         public void Configure(EntityTypeBuilder<Nota> builder)
         {
             builder.HasKey(n => n.Id);
+            builder.Property(n => n.DataCriacao).HasDefaultValueSql("GETDATE()");
         }
     }
 }

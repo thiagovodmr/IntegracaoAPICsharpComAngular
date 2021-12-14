@@ -33,8 +33,11 @@ namespace APIWebApplication
 
             services.AddScoped<INotaRepository, NotaRepository>();
             services.AddScoped<ITagRepository, TagRepository>();
+            services.AddScoped<INotaTagRepository, NotaTagRepository>();
             services.AddScoped<AppDataContext, AppDataContext>();
-            services.AddControllers();
+
+            services.AddControllers().AddNewtonsoftJson() ;
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
